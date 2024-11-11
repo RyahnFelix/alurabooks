@@ -1,26 +1,26 @@
-.tOpicos {
+.topicos {
     background: var(--azul-degrade);
     text-align: center;
     padding: 1em 0;
 }
 
-.tOpicos__titulo {
+.topicos__titulo {
     color: var(--branco);
     font-weight: 300;
     margin-bottom: 1em;
 }
 
-.tOpicos__lista {
+.topicos__lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.tOpicos__item {
+.topicos__item {
     margin: 2em 0.5em;
 }
 
-.tOpicos__link {
+.topicos__link {
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
@@ -30,18 +30,18 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .tOpicos__titulo {
+    .topicos__titulo {
         font-size: 24px;
     }
 
-    .tOpicos__link {
+    .topicos__link {
         font-size: 24px;
     }
 }
 
 
 @media screen and (min-width: 1728px) {
-    .tOpicos {
+    .topicos {
         padding: 3em 30vw;
     }
 }
